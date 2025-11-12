@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -9,7 +9,7 @@ import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Calendar, ChefHat, Heart, Star, UtensilsCrossed } from "lucide-react";
+import { Calendar, ChefHat, Heart, Star, UtensilsCrossed, Instagram, Facebook } from "lucide-react";
 
 export default function Home() {
   return (
@@ -239,12 +239,12 @@ export default function Home() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/sushitanaka",
               ariaLabel: "Instagram de Sushi Tanaka"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/sushitanaka",
               ariaLabel: "Facebook de Sushi Tanaka"
             }
